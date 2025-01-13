@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="bg">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Play the song</h1>
+            <div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="Bandeya" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="Dekhha_tenu" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="Kaise_Hua" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="Mere_Humsafar" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="ranjha" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="surili_akhiyo" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="Tere_Bina_Na_Guzara" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="ye_jo_halka" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="zalima" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItems">
+                    <img src="covers/bandeya.jpg" alt="1">
+                    <span class="songName">Bandeya</span>
+                   <span class="songlistPlay"><span class="time">05.34 <i id="zaroor" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+           </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+       
+        <input type="range" name="range" id="myPrograssBar" min="0" value="0" max="100">
+        <div class="playIcons">
+        <i class="fa-solid fa-3x fa-backward-step"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+
+        <div class="info">
+            <img src="playing.gif" width="45px" alt="" id="gift">           Zaalima
+        </div>
+    </div>
+
+<script src="https://kit.fontawesome.com/f6189f73dd.js" crossorigin="anonymous"></script>
+<script src="jsWithArman.js"></script>
+</body>
+</html>
