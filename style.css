@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: "Nunito Sans", serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    list-style-type: none;
+    color: #ffff;
+    background-color: black;
+}
+
+nav ul li {
+    padding: 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: #ffff;
+    font-family: "Nunito Sans", serif;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.bottom {
+    position: sticky;
+    bottom: 0; /* Ensures it stays at the bottom */
+    height: 50px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; /* Adds some space around the content */
+    gap: 10px; /* Creates space between the progress bar and the controls */
+}
+
+
+#myPrograssBar{
+    width: 88vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+.playIcons i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.songItems{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    height: 50px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Nunito Sans", serif;
+    margin: 12px 0;
+    border-radius: 24px;
+}
+.songItems img{
+    width: 43px;
+    margin: 0 24px;
+}
+
+.time{
+    margin: 0 24px;
+    cursor: pointer;
+}
+
+.info{
+    position: absolute;
+    color: #ffff;
+    left: 6vw;
+    font-family: "Nunito Sans", serif;
+}
+
+.info img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(212, 14, 14);
+    }
+  }
